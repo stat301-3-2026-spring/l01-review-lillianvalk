@@ -45,7 +45,17 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+ - data cleaning/simple EDA
+ - initial setup: data splitting/folding
+ - create baseline recipe
+ - fit models to resamples with baseline recipe
+ - tune hyperparameters
+ - analyze baseline results
+ - feature engineer recipes using EDA
+ - fit models to resamples with feature engineered recipe
+ - select best model
+ - fit best model to training data
+ - compare prediction results to test data to assess model performance
 
 :::
 
@@ -56,7 +66,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning tries to have some sort of outcome that is predicted or classified using data. Unsupervised learning, on the other hand, tries to simply identify patterns in data.
 
 :::
 
@@ -69,7 +79,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Descriptive models aim to visually describe an aspect of the data.
 
 :::
 
@@ -78,7 +88,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential models attempt to test hypotheses in order to answer research questions about the relationships between variables.
 
 :::
 
@@ -87,7 +97,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Predictive models try to create accurate predictions for unknown data using existing data.
 
 :::
 
@@ -102,7 +112,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model relies on existing equations and assumes the data follows that equation.
 
 :::
 
@@ -113,7 +123,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirically driven model does not make assumptions about the data in its predictions.
 
 :::
 
@@ -124,7 +134,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Parametric models are mechanistic and nonparametric models are empirically driven.
 
 :::
 
@@ -135,7 +145,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are easier to interpret because their form is already known as it uses an existing equation.
 
 :::
 
@@ -146,7 +156,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are less flexible as they rely on existing equation structures, while empirically driven models have more flexibility because they can base their predictions on the data itself.
 
 :::
 
@@ -157,7 +167,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bias-variance trade-off refers to how models can tend to be overfitted or underfitted. An overfitted model is a model that is too closely trained to the training data (i.e. is too biased), so it does not make good predictions on unseen test data, which empirically driven models can fall prey to. An underfitted model is a model that is too simple and does not fully understand the complexities of the data (i.e. has too much variance), so it does not make good predictions on the training or testing data, which can happen to mechanistic models.
 
 :::
 
@@ -168,7 +178,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Regression problems try to predict a numerical value, such as using existing weather data to predict how many inches it will rain tomorrow. Classification problems try to predict a categorical value, such as using existing weather data to predict whether it will rain tomorrow or not.
 
 :::
 
@@ -179,7 +189,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the outcome variable keeps the predictions generalizable because it ensures each split does not omit data points if the outcome variable is skewed.
 
 :::
 
