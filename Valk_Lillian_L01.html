@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lillian Valk">
-<meta name="dcterms.date" content="2026-04-01">
+<meta name="dcterms.date" content="2026-04-04">
 
 <title>L01 Lillian Valk</title>
 <style>
@@ -3098,7 +3098,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 1, 2026</p>
+      <p class="date">April 4, 2026</p>
     </div>
   </div>
   
@@ -3381,7 +3381,8 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>V-fold cross validation with repeats is used to estimate the test RMSE by separating the training data set into smaller training and testing sets and then averaging the results to estimate RMSE. The size and number of the smaller training and testing sets are dependent on the number of folds, as 3 folds will take 3 equal groups from the training set and use each of the 3 groups as a testing set one time, resulting in 3 models averaged for the RMSE. Repeats then determine how many times this process is repeated with randomized data points from the training set. In the example of 3 folds, 5 repeats will result in 15 total models averaged for the RMSE.</p>
+<p>We use this strategy because by averaging the results from the simulated models, we can trust that our RMSEs are not due to randomness and are more reliable.</p>
 </div>
 </div>
 </section>
@@ -3398,7 +3399,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Bootstrapping is better suited for smaller datasets because it uses some datapoints from the training set multiple times.</p>
 </div>
 </div>
 </section>
@@ -3415,7 +3416,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Model tuning is the process of testing a range of hyperparameters for specific models to determine what the best hyperparameters for that model are. We use this strategy because it is not immediately obvious what the best hyperparameters for a specific model and dataset are, so, by testing a range, we can see if certain hyperparameter values result in better assessment metric values than others. This then leads to hyperparameter refinement.</p>
 </div>
 </div>
 </section>
@@ -3432,7 +3433,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>RMSE and MAE.</p>
 </div>
 </div>
 <p>What are two common performance metrics when dealing with a classification ML problem?</p>
@@ -3446,7 +3447,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Accuracy and ROC_AUC.</p>
 </div>
 </div>
 </section>
@@ -3467,7 +3468,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>This is an inferential problem because it tries to identify a relationship between two specific variables: the number of service calls and the likelihood of a customer dropping the service.</p>
 </div>
 </div>
 <ol start="2" type="1">
@@ -3483,7 +3484,7 @@ Solution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>This is a prediction problem, specifically a regression problem, because it tries to answer the likelihood of a customer dropping in the future.</p>
 </div>
 </div>
 </section>

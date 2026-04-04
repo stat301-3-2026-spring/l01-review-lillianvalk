@@ -200,7 +200,9 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+V-fold cross validation with repeats is used to estimate the test RMSE by separating the training data set into smaller training and testing sets and then averaging the results to estimate RMSE. The size and number of the smaller training and testing sets are dependent on the number of folds, as 3 folds will take 3 equal groups from the training set and use each of the 3 groups as a testing set one time, resulting in 3 models averaged for the RMSE. Repeats then determine how many times this process is repeated with randomized data points from the training set. In the example of 3 folds, 5 repeats will result in 15 total models averaged for the RMSE.
+
+We use this strategy because by averaging the results from the simulated models, we can trust that our RMSEs are not due to randomness and are more reliable.
 
 :::
 
@@ -211,7 +213,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bootstrapping is better suited for smaller datasets because it uses some datapoints from the training set multiple times.
 
 :::
 
@@ -222,7 +224,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is the process of testing a range of hyperparameters for specific models to determine what the best hyperparameters for that model are. We use this strategy because it is not immediately obvious what the best hyperparameters for a specific model and dataset are, so, by testing a range, we can see if certain hyperparameter values result in better assessment metric values than others. This then leads to hyperparameter refinement.
 
 :::
 
@@ -233,7 +235,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+RMSE and MAE.
 
 :::
 
@@ -242,7 +244,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Accuracy and ROC_AUC.
 
 :::
 
@@ -257,7 +259,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is an inferential problem because it tries to identify a relationship between two specific variables: the number of service calls and the likelihood of a customer dropping the service.
 
 :::
 
@@ -266,7 +268,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is a prediction problem, specifically a regression problem, because it tries to answer the likelihood of a customer dropping in the future.
 
 :::
 
