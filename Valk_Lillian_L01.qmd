@@ -268,7 +268,7 @@ This is an inferential problem because it tries to identify a relationship betwe
 ::: {.callout-tip icon="false"}
 ## Solution
 
-This is a prediction problem, specifically a regression problem, because it tries to answer the likelihood of a customer dropping in the future.
+This is a prediction problem because it tries to predict the likelihood of a customer dropping the company in the future.
 
 :::
 
