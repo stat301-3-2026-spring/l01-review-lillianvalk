@@ -68,15 +68,11 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 ## Score 
 
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I gave myself a 4 because some of these steps were slightly out of order and I got too specific with some steps. I think I could have also been more general with some of the later tuning steps.
 
 :::
 
@@ -97,15 +93,11 @@ Supervised learning tries to have some sort of outcome that is predicted or clas
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I think I clearly captured the difference between the two types of learning.
 
 :::
 
@@ -128,15 +120,11 @@ Descriptive models aim to visually describe an aspect of the data.
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I think I clearly defined a descriptive model.
 
 :::
 
@@ -155,15 +143,11 @@ Inferential models attempt to test hypotheses in order to answer research questi
 
 ## Score 
 
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I didn't add the caveat of inferential models depending on underlying assumptions, which is an important aspect of inferential models.
 
 :::
 
@@ -182,15 +166,11 @@ Predictive models try to create accurate predictions for unknown data using exis
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I think I clearly defined what a predictive model is/does.
 
 :::
 
@@ -215,15 +195,11 @@ A mechanistic model relies on existing equations and assumes the data follows th
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I think I captured the essential definition of a mechanistic model.
 
 :::
 
@@ -244,15 +220,11 @@ An empirically driven model does not make assumptions about the data in its pred
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I think I captured the essential definition of an empirically driven model.
 
 :::
 
@@ -273,15 +245,11 @@ Parametric models are mechanistic and nonparametric models are empirically drive
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly matched each type of model with its equivalent.
 
 :::
 
@@ -302,15 +270,11 @@ Mechanistic models are easier to interpret because their form is already known a
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified the way that mechanistic models are easier to interpret.
 
 :::
 
@@ -331,15 +295,11 @@ Mechanistic models are less flexible as they rely on existing equation structure
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified which model was more flexible and why.
 
 :::
 
@@ -360,15 +320,11 @@ Bias-variance trade-off refers to how models can tend to be overfitted or underf
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+While I didn't use more colloquial metaphors, I did correctly identify the bias-variance tradeoff.
 
 :::
 
@@ -389,15 +345,11 @@ Regression problems try to predict a numerical value, such as using existing wea
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly defined both regression and classification.
 
 :::
 
@@ -418,15 +370,11 @@ Stratifying by the outcome variable keeps the predictions generalizable because 
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified why it is important to stratify by the target variable.
 
 :::
 
@@ -449,15 +397,11 @@ We use this strategy because by averaging the results from the simulated models,
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly explained how v-fold cross validation works and also correctly attributed its usefulness to reducing randomness.
 
 :::
 
@@ -478,15 +422,11 @@ Bootstrapping is better suited for smaller datasets because it uses some datapoi
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified that bootstrap resampling is useful in the case of a small dataset.
 
 :::
 
@@ -507,15 +447,11 @@ Model tuning is the process of testing a range of hyperparameters for specific m
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly explained what hyperparameter tuning is and how it is used to get the best model results possible.
 
 :::
 
@@ -536,15 +472,11 @@ RMSE and MAE.
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified two assessment metrics for regression problems.
 
 :::
 
@@ -563,15 +495,11 @@ Accuracy and ROC_AUC.
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified two assessment metrics for classification problems.
 
 :::
 
@@ -596,15 +524,11 @@ This is an inferential problem because it tries to identify a relationship betwe
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified the question as inferential and gave the correct explanation.
 
 :::
 
@@ -623,14 +547,10 @@ This is a prediction problem because it tries to predict the likelihood of a cus
 
 ## Score 
 
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified the question as predictive and gave the correct explanation.
 
 :::
